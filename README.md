@@ -134,8 +134,7 @@ Main App Screen
 
 • Εξαγωγή συναλλαγών σε αρχείο Excel
 
-<img width="2284" height="1102" alt="image" src="https://github.com/user-attachments/assets/dfc82dd3-ee6d-4e14-98ad-d1f8baa21970" />
-
+<img width="2356" height="1138" alt="image" src="https://github.com/user-attachments/assets/756bdc7a-2581-4870-99d8-a639a276f7f9" />
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
