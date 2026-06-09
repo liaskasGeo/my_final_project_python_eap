@@ -129,7 +129,9 @@ Main App Screen
 Στατιστικά Στοιχεία και Export Excel
 
 • Προβολή εξόδων ανά κατηγορία
+
 • Γραφική αναπαράσταση δεδομένων με pie chart
+
 • Εξαγωγή συναλλαγών σε αρχείο Excel
 
 <img width="2284" height="1102" alt="image" src="https://github.com/user-attachments/assets/dfc82dd3-ee6d-4e14-98ad-d1f8baa21970" />
