@@ -17,7 +17,10 @@ pip install -r requirements.txt
 
 Στον φάκελο τον οποίο βρίσκεται το project ανοίγουμε cmd και γράφουμε:
 
+
+```bash
 python -m PyInstaller --onefile --windowed main.py
+```
 
 Μετά την διεργασία που θα γίνει στον φάκελο /dist, θα δημιουργηθεί το αρχείο main.exe το οποίο μπορεί να εκτελεστεί
 
