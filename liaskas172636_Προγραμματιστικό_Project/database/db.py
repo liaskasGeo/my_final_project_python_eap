@@ -45,7 +45,7 @@ class Database:
         conn.close()
 
     def create_default_user(self):
-        """Δημιουργεί έναν demo χρήστη για απλό login: admin / 1234."""
+        """Δημιουργεί έναν demo χρήστη για απλό login: demo / demo."""
         conn = self.connect()
         cursor = conn.cursor()
         cursor.execute(
