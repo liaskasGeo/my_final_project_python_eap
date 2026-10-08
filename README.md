@@ -1,123 +1,77 @@
-# Family Finance Manager
+Family Finance Manager
 
-Εφαρμογή Python για καταγραφή οικογενειακών εσόδων και εξόδων.
+A Python application for tracking family income and expenses.
 
-## Εγκατάσταση
-
-1. Αφού έχουμε κάνει unzip τον φάκελο.
-2. Ανοίγουμε terminal/cmd μέσα στον φάκελο.
-3. Εγκαθιστούμε τις βιβλιοθήκες:
-
-```bash
+Installation
+Extract the project folder from the ZIP file.
+Open a terminal or Command Prompt (CMD) inside the project folder.
+Install the required libraries:
 pip install -r requirements.txt
-```
+Creating the EXE File
 
-## EXE
-Για την δημιουργία exe αρχείου εαν δεν υπάρχει:
+If the executable file does not already exist, you can create it by following these steps:
 
-Στον φάκελο τον οποίο βρίσκεται το project ανοίγουμε cmd και γράφουμε:
+Open CMD in the project folder and run:
 
-
-```bash
 python -m PyInstaller --onefile --windowed main.py
-```
 
-Μετά την διεργασία που θα γίνει στον φάκελο /dist, θα δημιουργηθεί το αρχείο main.exe το οποίο μπορεί να εκτελεστεί
+After the process is complete, the main.exe file will be created inside the dist folder and can be executed directly.
 
-## Εκτέλεση
+Running the Application
 
-Εναλλακτικά, η εφαρμογή μπορεί να τρέξει με:
+Alternatively, you can run the application using:
 
 python main.py
+Login Credentials
+Username: demo
+Password: demo
+Features
+Demo user login
+Add income and expense transactions
+Predefined transaction categories
+Display transactions in a table
+Color-coded financial information:
+Green for income
+Red for expenses
+Blue for the current balance
+Delete selected transactions
+Calculate total income, expenses, and balance
+Expense breakdown by category using a pie chart
+Export transactions to an Excel file
+Store data in an SQLite database
+Note
 
+The application was kept relatively simple because the project was completed individually and within a limited timeframe. The main focus was on correctly implementing the core requirements and ensuring that the essential features worked as intended.
 
-## Login
+Family Finance Manager — Project Report
+Project Title
 
-- Username: `demo`
-- Password: `demo`
+Development of a Family Finance Management Application
 
-## Λειτουργίες
+Course: PLIPRO — Python Programming Project
+Student: Georgios Liaskas
+Student ID: std172636
+Course Section: PLIPRO-ILE45-3 — Individual Project
+Academic Year: 2025–2026
 
-- Demo login χρήστη
-- Προσθήκη εσόδου ή εξόδου
-- Έτοιμες κατηγορίες
-- Προβολή συναλλαγών σε πίνακα
-- Πράσινο χρώμα για έσοδα και κόκκινο για έξοδα,μπλέ για υπόλοιπο
-- Διαγραφή επιλεγμένης συναλλαγής
-- Υπολογισμός συνόλου εσόδων, εξόδων και υπολοίπου
-- Γράφημα εξόδων ανά κατηγορία
-- Εξαγωγή συναλλαγών σε Excel
-- Αποθήκευση σε SQLite βάση
+1. Application Overview
+Purpose of the Application
 
-## Σημείωση
+The purpose of the application is to manage family finances using Python. It allows users to:
 
-Η εφαρμογή κρατήθηκε σχετικά απλή επειδή το project ολοκληρώθηκε ατομικά και με περιορισμένο χρόνο. Δόθηκε έμφαση στο να λειτουργούν σωστά οι βασικές απαιτήσεις.
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-Ανάπτυξη εφαρμογής διαχείρισης 
-οικογενειακών οικονομικών
-
---------------------------------------------------------------------------------------------------------------------
-Μάθημα ΠΛΗΠΡΟ Προγραμματιστικό Project Python
-
-
-Φοιτητής
-
-Λιάσκας Γεώργιος
-
-ΑΜ: std172636
-
-ΠΛΗΠΡΟ-ΗΛΕ45-3 ΑΤΟΜΙΚΟ
-
-Ακαδημαϊκό Έτος
-
-2025-2026
-
-----------------------------------------------------------------------------------------------------------------------
-
-Σκοπός Εφαρμογής
-Η διαχείριση οικογενειακών οικονομικών με χρήση Python. Η 
-εφαρμογή δίνει τη δυνατότητα στον χρήστη:
-
-1.να καταχωρεί έσοδα.
-
-2.να καταχωρεί έξοδα.
-
-3.να βλέπει τις συναλλαγές.
-
-4.να διαγράφει εγγραφές.
-
-5.να βλέπει στατιστικά στοιχεία μέσω γραφημάτων.
-
-6.να κάνει export των δεδομένων σε Excel αρχείο.
-
-
-------------------------------------------------------------------
-Τεχνολογίες
-
-•Python
-
-Βασική γλώσσα προγραμματισμού της εφαρμογής.
-
-•tkinter
-
-Χρησιμοποιήθηκε για το γραφικό περιβάλλον (GUI).
-
-•SQLite
-
-Χρησιμοποιήθηκε για αποθήκευση των δεδομένων της εφαρμογής.
-
-•matplotlib
-
-Χρησιμοποιήθηκε για την δημιουργία γραφημάτων.
-
-•pandas / openpyxl
-
-Χρησιμοποιήθηκαν για export των δεδομένων σε Excel αρχείο. 
-
+Record income.
+Record expenses.
+View transactions.
+Delete existing records.
+View statistics through charts.
+Export data to an Excel file.
+2. Technologies Used
+Python: The main programming language used to develop the application.
+Tkinter: Used to create the graphical user interface (GUI).
+SQLite: Used to store the application's data in a database.
+Matplotlib: Used to generate charts and visualize financial data.
+Pandas / OpenPyXL: Used to export transaction data to Excel files.
+3. Application Screens and Features
 -----------------------------------------------------------
 
 Εφαρμογή και λειτουργίες
