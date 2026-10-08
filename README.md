@@ -267,7 +267,8 @@ The application provides basic financial analysis and data export functionality,
 * Pie chart visualization of expenses.
 * Exporting transaction records to an Excel file.
 
-![Statistics and Excel Export](https://private-user-images.githubusercontent.com/149105897/605276856-8031ee31-dfa1-4370-bcad-ab3aaa3fe985.png)
+<img width="2269" height="1090" alt="image" src="https://github.com/user-attachments/assets/8031ee31-dfa1-4370-bcad-ab3aaa3fe985" />
+
 
 ## 4. Results and Conclusions
 
