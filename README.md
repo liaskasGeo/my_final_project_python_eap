@@ -236,7 +236,7 @@ The purpose of the application is to manage family finances using Python. It all
 
 The application includes a login screen that allows users to access the main interface using the demo credentials.
 
-![Login Screen](https://private-user-images.githubusercontent.com/149105897/605272880-206a089e-bb07-425b-bcce-e55115957ac1.png)
+<img width="573" height="429" alt="image" src="https://github.com/user-attachments/assets/206a089e-bb07-425b-bcce-e55115957ac1" />
 
 ### 3.2 Main Application Screen
 
