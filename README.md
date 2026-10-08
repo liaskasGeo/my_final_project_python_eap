@@ -250,8 +250,11 @@ The main interface provides the following functionality:
 * Store data in an SQLite database.
 * Log out of the application.
 
-![Main Application Screen](https://private-user-images.githubusercontent.com/149105897/605273423-99205703-cb02-4d59-a31f-27d917358f08.png)
+<img width="955" height="628" alt="image" src="https://github.com/user-attachments/assets/99205703-cb02-4d59-a31f-27d917358f08" />
 
+Τύποι και Κατηγορίες
+
+<img width="528" height="257" alt="image" src="https://github.com/user-attachments/assets/7dcf66e1-fb14-4bae-b759-f666c2efa5ed" />
 ### 3.3 Transaction Types and Categories
 
 Users can select the transaction type and choose from predefined categories when recording income or expenses.
